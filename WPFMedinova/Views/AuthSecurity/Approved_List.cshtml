@@ -1,0 +1,55 @@
+﻿@model IEnumerable<WPFMedinova.Models.AppointmentModel>
+
+@{
+    Layout = null; // No layout is used for this view
+}
+
+@Html.Raw(TempData["approved"])
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" />
+    <title>Approved Appointments</title> <!-- Title of the page -->
+</head>
+<body>
+    <div class="container mt-5">
+        <!-- Main container for the content -->
+        <h2 class="text-center">Approved Appointments</h2> <!-- Header for the list -->
+        <hr /> <!-- Horizontal rule for separation -->
+        <!-- Table for displaying approved appointments -->
+        <table class="table table-striped">
+            <!-- Bootstrap table styling -->
+            <thead>
+                <tr>
+                    <th>@Html.DisplayNameFor(model => model.First().Patient_Name)</th> <!-- Display Patient Name header -->
+                    <th>@Html.DisplayNameFor(model => model.First().Specialization)</th> <!-- Display Specialization header -->
+                    <th>@Html.DisplayNameFor(model => model.First().Doctor)</th> <!-- Display Doctor header -->
+                    <th>@Html.DisplayNameFor(model => model.First().Appointment_Date)</th> <!-- Display Appointment Date header -->
+                    <th>@Html.DisplayNameFor(model => model.First().Status)</th> <!-- Display Status header -->
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var item in Model)
+                { // Loop through each appointment in the model
+                    <tr>
+                        <td>@Html.DisplayFor(modelItem => item.Patient_Name)</td> <!-- Display Patient Name -->
+                        <td>@Html.DisplayFor(modelItem => item.Specialization)</td> <!-- Display Specialization -->
+                        <td>@Html.DisplayFor(modelItem => item.Doctor)</td> <!-- Display Doctor -->
+                        <td>@Html.DisplayFor(modelItem => item.Appointment_Date)</td> <!-- Display Appointment Date -->
+                        <td>@Html.DisplayFor(modelItem => item.Status)</td> <!-- Display Status -->
+                    </tr>
+                }
+            </tbody>
+        </table>
+
+        <!-- Link to go back to the patient list -->
+        <div class="text-center mt-3">
+            <a asp-controller="AuthSecurity" asp-action="List_Patients" class="btn btn-secondary">Go Back</a> <!-- Button to go back -->
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script> <!-- Bootstrap JS -->
+</body>
+</html>

@@ -1,0 +1,42 @@
+﻿@model IEnumerable<WPFMedinova.Models.Create_Doctor_Model> // Model declaration for a list of doctors
+@{
+    ViewData["Title"] = "List_Doctors"; // Set page title
+    Layout = null; // No layout applied
+}
+
+<link href="~/css/bootstrap.min.css" rel="stylesheet"> <!-- Link to Bootstrap CSS for styling -->
+
+<h1 class="bg-dark text-white text-center">List of Doctors</h1> <!-- Page header -->
+
+<a asp-controller="Account" asp-action="Create_Doctor" class="btn btn-success">Add new Doctor</a> <!-- Button to add a new doctor -->
+<br />
+<br />
+
+<table class="table table-bordered mt-3 text-center">
+    <!-- Table for displaying doctor details -->
+    <tr>
+        <th class="text-center">S.No.</th> <!-- Serial Number -->
+        <th class="text-center">First Name</th> <!-- Doctor's first name -->
+        <th class="text-center">Last Name</th> <!-- Doctor's last name -->
+        <th class="text-center">Age</th> <!-- Doctor's age -->
+        <th class="text-center">Gender</th> <!-- Doctor's gender -->
+        <th class="text-center">Mobile No</th> <!-- Doctor's mobile number -->
+        <th class="text-center">Address</th> <!-- Doctor's address -->
+        <th class="text-center">Specialization</th> <!-- Doctor's specialization -->
+    </tr>
+    @foreach (var emp in Model)
+    {
+        <tr>
+            <td>@emp.D_Id</td> <!-- Display doctor's ID -->
+            <td>@emp.FirstName</td> <!-- Display doctor's first name -->
+            <td>@emp.LastName</td> <!-- Display doctor's last name -->
+            <td>@emp.Age</td> <!-- Display doctor's age -->
+            <td>@emp.Gender</td> <!-- Display doctor's gender -->
+            <td>@emp.MobileNo</td> <!-- Display doctor's mobile number -->
+            <td>@emp.Address</td> <!-- Display doctor's address -->
+            <td>@emp.Specialization</td> <!-- Display doctor's specialization -->
+        </tr>
+    }
+</table>
+<br />
+<a asp-controller="AuthSecurity" asp-action="Index">Go back</a> <!-- Link to navigate back -->

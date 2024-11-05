@@ -1,0 +1,175 @@
+is_global = true
+build_property.TargetFramework = net6.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = WPFMedinova
+build_property.RootNamespace = WPFMedinova
+build_property.ProjectDir = D:\Final Project\Health Center using EF\WPFMedinova_Core\WPFMedinova\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.RazorLangVersion = 6.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = true
+build_property.MSBuildProjectDirectory = D:\Final Project\Health Center using EF\WPFMedinova_Core\WPFMedinova
+build_property._RazorSourceGeneratorDebug = 
+
+[D:/Final Project/Health Center using EF/WPFMedinova_Core/WPFMedinova/Views/Account/Appointment.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxBcHBvaW50bWVudC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Final Project/Health Center using EF/WPFMedinova_Core/WPFMedinova/Views/Account/Create_Doctor.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxDcmVhdGVfRG9jdG9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Final Project/Health Center using EF/WPFMedinova_Core/WPFMedinova/Views/Account/Login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxMb2dpbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Final Project/Health Center using EF/WPFMedinova_Core/WPFMedinova/Views/Account/Register.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxSZWdpc3Rlci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Final Project/Health Center using EF/WPFMedinova_Core/WPFMedinova/Views/AuthSecurity/Appointment_List.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXV0aFNlY3VyaXR5XEFwcG9pbnRtZW50X0xpc3QuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Final Project/Health Center using EF/WPFMedinova_Core/WPFMedinova/Views/AuthSecurity/Approve.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXV0aFNlY3VyaXR5XEFwcHJvdmUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Final Project/Health Center using EF/WPFMedinova_Core/WPFMedinova/Views/AuthSecurity/Approved_List.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXV0aFNlY3VyaXR5XEFwcHJvdmVkX0xpc3QuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Final Project/Health Center using EF/WPFMedinova_Core/WPFMedinova/Views/AuthSecurity/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXV0aFNlY3VyaXR5XERlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Final Project/Health Center using EF/WPFMedinova_Core/WPFMedinova/Views/AuthSecurity/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXV0aFNlY3VyaXR5XEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Final Project/Health Center using EF/WPFMedinova_Core/WPFMedinova/Views/AuthSecurity/EditPatient.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXV0aFNlY3VyaXR5XEVkaXRQYXRpZW50LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Final Project/Health Center using EF/WPFMedinova_Core/WPFMedinova/Views/AuthSecurity/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXV0aFNlY3VyaXR5XEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Final Project/Health Center using EF/WPFMedinova_Core/WPFMedinova/Views/AuthSecurity/List_Doctor.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXV0aFNlY3VyaXR5XExpc3RfRG9jdG9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Final Project/Health Center using EF/WPFMedinova_Core/WPFMedinova/Views/AuthSecurity/List_Patients.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXV0aFNlY3VyaXR5XExpc3RfUGF0aWVudHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Final Project/Health Center using EF/WPFMedinova_Core/WPFMedinova/Views/AuthSecurity/Patient_Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXV0aFNlY3VyaXR5XFBhdGllbnRfRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Final Project/Health Center using EF/WPFMedinova_Core/WPFMedinova/Views/Home/About_Us.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxBYm91dF9Vcy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Final Project/Health Center using EF/WPFMedinova_Core/WPFMedinova/Views/Home/Contact.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxDb250YWN0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Final Project/Health Center using EF/WPFMedinova_Core/WPFMedinova/Views/Home/features.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxmZWF0dXJlcy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Final Project/Health Center using EF/WPFMedinova_Core/WPFMedinova/Views/Home/Gallery.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxHYWxsZXJ5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Final Project/Health Center using EF/WPFMedinova_Core/WPFMedinova/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Final Project/Health Center using EF/WPFMedinova_Core/WPFMedinova/Views/Home/News_Blog_Archive.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxOZXdzX0Jsb2dfQXJjaGl2ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Final Project/Health Center using EF/WPFMedinova_Core/WPFMedinova/Views/Home/News_Blog_Archive_with_Left_Sidebar.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxOZXdzX0Jsb2dfQXJjaGl2ZV93aXRoX0xlZnRfU2lkZWJhci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Final Project/Health Center using EF/WPFMedinova_Core/WPFMedinova/Views/Home/News_Blog_Archive_with_Right_Sidebar.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxOZXdzX0Jsb2dfQXJjaGl2ZV93aXRoX1JpZ2h0X1NpZGViYXIuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Final Project/Health Center using EF/WPFMedinova_Core/WPFMedinova/Views/Home/News_Blog_Single.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxOZXdzX0Jsb2dfU2luZ2xlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Final Project/Health Center using EF/WPFMedinova_Core/WPFMedinova/Views/Home/News_Blog_Single_with_Left_Sidebar.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxOZXdzX0Jsb2dfU2luZ2xlX3dpdGhfTGVmdF9TaWRlYmFyLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Final Project/Health Center using EF/WPFMedinova_Core/WPFMedinova/Views/Home/News_Blog_Single_with_Right_Sidebar.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxOZXdzX0Jsb2dfU2luZ2xlX3dpdGhfUmlnaHRfU2lkZWJhci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Final Project/Health Center using EF/WPFMedinova_Core/WPFMedinova/Views/Home/Page_404.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQYWdlXzQwNC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Final Project/Health Center using EF/WPFMedinova_Core/WPFMedinova/Views/Home/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Final Project/Health Center using EF/WPFMedinova_Core/WPFMedinova/Views/Home/Service_Blood_Bank.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxTZXJ2aWNlX0Jsb29kX0JhbmsuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Final Project/Health Center using EF/WPFMedinova_Core/WPFMedinova/Views/Home/Service_Medical_Couselling.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxTZXJ2aWNlX01lZGljYWxfQ291c2VsbGluZy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Final Project/Health Center using EF/WPFMedinova_Core/WPFMedinova/Views/Home/Service_Medical_Reasearch.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxTZXJ2aWNlX01lZGljYWxfUmVhc2VhcmNoLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Final Project/Health Center using EF/WPFMedinova_Core/WPFMedinova/Views/Home/Wpf_Medinova.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxXcGZfTWVkaW5vdmEuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Final Project/Health Center using EF/WPFMedinova_Core/WPFMedinova/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Final Project/Health Center using EF/WPFMedinova_Core/WPFMedinova/Views/Shared/_footer.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9mb290ZXIuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Final Project/Health Center using EF/WPFMedinova_Core/WPFMedinova/Views/Shared/_header.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9oZWFkZXIuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Final Project/Health Center using EF/WPFMedinova_Core/WPFMedinova/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Final Project/Health Center using EF/WPFMedinova_Core/WPFMedinova/Views/Specialization/Add_Specialization.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3BlY2lhbGl6YXRpb25cQWRkX1NwZWNpYWxpemF0aW9uLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Final Project/Health Center using EF/WPFMedinova_Core/WPFMedinova/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Final Project/Health Center using EF/WPFMedinova_Core/WPFMedinova/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Final Project/Health Center using EF/WPFMedinova_Core/WPFMedinova/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-vqx7hc216f

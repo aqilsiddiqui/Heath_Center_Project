@@ -1,0 +1,62 @@
+﻿
+@model WPFMedinova.Models.AppointmentModel
+
+@{
+    ViewData["Title"] = "Edit Appointment";
+    Layout = null;
+}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <link href="~/css/bootstrap.min.css" rel="stylesheet" /> <!-- Bootstrap CSS -->
+    <style>
+        /* Custom styling for centered form with box-shadow */
+        .form-container {
+            max-width: 600px; /* Form width */
+            margin: 50px auto; /* Center form */
+            padding: 30px;
+            border: 1px solid #dee2e6;
+            border-radius: 5px;
+            background-color: #ffffff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+    </style>
+</head>
+<body>
+
+    <div class="form-container">
+        <h2 class="text-center mb-4">Edit Appointment</h2>
+
+        <form asp-action="Edit" method="post">
+            <div class="form-group">
+                <label asp-for="Id" class="form-label">Appointment ID</label>
+                <input asp-for="Id" class="form-control" readonly /> <!-- Readonly field for ID -->
+            </div>
+            <div class="form-group">
+                <label asp-for="Patient_Name" class="form-label">Patient Name</label>
+                <input asp-for="Patient_Name" class="form-control" /> <!-- Patient Name input -->
+            </div>
+            <div class="form-group">
+                <label asp-for="Specialization" class="form-label">Specialization</label>
+                <input asp-for="Specialization" class="form-control" /> <!-- Specialization input -->
+            </div>
+            <div class="form-group">
+                <label asp-for="Doctor" class="form-label">Doctor</label>
+                <input asp-for="Doctor" class="form-control" /> <!-- Doctor input -->
+            </div>
+            <div class="form-group">
+                <label asp-for="Appointment_Date" class="form-label">Appointment Date</label>
+                <input asp-for="Appointment_Date" class="form-control" type="datetime-local" /> <!-- Appointment Date input -->
+            </div>
+            <button type="submit" class="btn btn-primary btn-block">Update Appointment</button> <!-- Update button -->
+        </form>
+
+        <a asp-action="Appointment_List" class="btn btn-secondary btn-block mt-3">Back to List</a> <!-- Back to List link -->
+    </div>
+
+    <script src="~/js/bootstrap.bundle.min.js"></script> <!-- Optional Bootstrap JS -->
+</body>
+</html>

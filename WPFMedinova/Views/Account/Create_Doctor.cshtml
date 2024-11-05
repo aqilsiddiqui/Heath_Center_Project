@@ -1,0 +1,155 @@
+﻿@model WPFMedinova.Models.Create_Doctor_Model
+
+@{
+    ViewData["Title"] = "Create Doctor"; // Title of the page
+    Layout = null; // No layout for this page
+}
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" /> <!-- Responsive design -->
+    <title>Create Doctor</title>
+    <!-- Include Bootstrap CSS -->
+    <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+    <!-- Include jQuery and Bootstrap JS -->
+    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+</head>
+<body class="bg-light">
+    <!-- Light background color for better visibility -->
+    <div class="container mt-5">
+        <!-- Main container with top margin -->
+        <div class="row justify-content-center">
+            <!-- Centering the form -->
+            <div class="col-md-8">
+                <!-- Form column width -->
+                <div class="card border-primary">
+                    <!-- Card with a primary border -->
+                    <div class="card-header text-white bg-primary text-center">
+                        <!-- Card header -->
+                        <h3>Doctor Registration Form</h3> <!-- Form title -->
+                    </div>
+                    <div class="card-body">
+                        <!-- Card body -->
+                        <form asp-controller="Account" asp-action="Create_Doctor" method="post">
+                            <!-- Form action -->
+                            <div asp-validation-summary="ModelOnly" class="text-danger"></div> <!-- Validation summary -->
+                            <!-- Hidden ID Field -->
+                            <input type="hidden" name="id" id="id" class="form-control">
+
+                            <!-- First Name Field -->
+                            <div class="form-group">
+                                <label for="firstname" class="text-info">First Name</label>
+                                <input type="text" name="firstname" id="firstname" class="form-control" required> <!-- Required field -->
+                                <span asp-validation-for="FirstName" class="text-danger"></span> <!-- Validation error message -->
+                            </div>
+
+                            <!-- Last Name Field -->
+                            <div class="form-group">
+                                <label for="lastname" class="text-info">Last Name</label>
+                                <input type="text" name="lastname" id="lastname" class="form-control" required> <!-- Required field -->
+                                <span asp-validation-for="LastName" class="text-danger"></span> <!-- Validation error message -->
+                            </div>
+
+                            <!-- Age Field -->
+                            <div class="form-group">
+                                <label for="age" class="text-info">Age</label>
+                                <input type="number" name="age" id="age" class="form-control" required> <!-- Required field -->
+                                <span asp-validation-for="Age" class="text-danger"></span> <!-- Validation error message -->
+                            </div>
+
+                            <!-- Gender Selection -->
+                            <div class="form-group">
+                                <label class="text-info">Gender</label><br />
+                                <div>
+                                    <input type="radio" name="gender" value="male" required /> Male <!-- Required field -->
+                                    <input type="radio" name="gender" value="female" required /> Female <!-- Required field -->
+                                </div>
+                            </div>
+
+                            <!-- Mobile No Field -->
+                            <div class="form-group">
+                                <label for="mobileno" class="text-info">Mobile No</label>
+                                <input type="text" name="mobileno" id="mobileno" class="form-control" required> <!-- Required field -->
+                                <span asp-validation-for="MobileNo" class="text-danger"></span> <!-- Validation error message -->
+                            </div>
+
+                            <!-- Address Field -->
+                            <div class="form-group">
+                                <label for="address" class="text-info">Address</label>
+                                <input type="text" name="address" id="address" class="form-control" required> <!-- Required field -->
+                                <span asp-validation-for="Address" class="text-danger"></span> <!-- Validation error message -->
+                            </div>
+
+                            <!-- Role Selection -->
+                            <div class="form-group">
+                                <label for="Role" class="text-info">Role</label>
+                                <select name="Role" class="form-control" required>
+                                    <!-- Required field -->
+                                    <option value="">---Select---</option>
+                                    <option value="Doctor">Doctor</option>
+                                </select>
+                            </div>
+
+                            <!-- Username Field -->
+                            <div class="form-group">
+                                <label for="username" class="text-info">Username</label>
+                                <input type="text" name="username" id="username" class="form-control" required> <!-- Required field -->
+                                <span asp-validation-for="Username" class="text-danger"></span> <!-- Validation error message -->
+                            </div>
+
+                            <!-- Password Field -->
+                            <div class="form-group">
+                                <label for="password" class="text-info">Password</label>
+                                <input type="password" name="password" id="password" class="form-control" required> <!-- Required field -->
+                                <span asp-validation-for="Password" class="text-danger"></span> <!-- Validation error message -->
+                            </div>
+
+                            <!-- Confirm Password Field -->
+                            <div class="form-group">
+                                <label for="confirm_password" class="text-info">Confirm Password</label>
+                                <input type="password" name="confirm_password" id="confirm_password" class="form-control" required> <!-- Required field -->
+                                <span asp-validation-for="Confirm_Password" class="text-danger"></span> <!-- Validation error message -->
+                            </div>
+
+                            <!-- Specialization Field -->
+                            <div class="form-group">
+                                <label for="specialization" class="text-info">Specialization</label>
+                                <input type="text" name="specialization" id="specialization" class="form-control" required> <!-- Required field -->
+                                <span asp-validation-for="Specialization" class="text-danger"></span> <!-- Validation error message -->
+                            </div>
+
+                            <!-- Qualification Field -->
+                            <div class="form-group">
+                                <label for="qualification" class="text-info">Qualification</label>
+                                <input type="text" name="qualification" id="qualification" class="form-control" required> <!-- Required field -->
+                                <span asp-validation-for="Qualification" class="text-danger"></span> <!-- Validation error message -->
+                            </div>
+
+                            <!-- Experience Field -->
+                            <div class="form-group">
+                                <label for="experience" class="text-info">Experience</label>
+                                <input type="text" name="experience" id="experience" class="form-control" required> <!-- Required field -->
+                                <span asp-validation-for="Experience" class="text-danger"></span> <!-- Validation error message -->
+                            </div>
+
+                            <!-- Submit Button -->
+                            <div class="form-group">
+                                <input type="submit" name="Submit" class="btn btn-primary btn-md" value="Submit" /> <!-- Bootstrap primary button -->
+                            </div>
+                        </form>
+                        <div>
+                            <a asp-action="Login" class="text-info">Go back</a> <!-- Link to go back to Login -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    @section scripts {
+        <partial name="_ValidationScriptsPartial" /> <!-- Include validation scripts -->
+    }
+</body>
+</html>

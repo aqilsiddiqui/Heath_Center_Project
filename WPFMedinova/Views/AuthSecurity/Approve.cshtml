@@ -1,0 +1,84 @@
+﻿@model WPFMedinova.Models.AppointmentModel
+
+@{
+    Layout = null; // No layout is used for this view
+}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" />
+    <title>Approve Appointment</title> <!-- Title of the page -->
+</head>
+<body>
+    <div class="container mt-5">
+        <!-- Main container for the content -->
+        <h4 class="text-center">Approve Appointment</h4> <!-- Header for the form -->
+        <hr /> <!-- Horizontal rule for separation -->
+
+        <div class="row">
+            <div class="col-md-6 offset-md-3">
+                <!-- Centering the form -->
+                <form asp-action="Approve">
+                    <!-- Form that submits to the Approve action -->
+                    <div asp-validation-summary="ModelOnly" class="text-danger"></div> <!-- Displays validation errors -->
+
+                    <input type="hidden" asp-for="Id" /> <!-- Hidden field to store the appointment ID -->
+                    <!-- Patient Name Field -->
+                    <div class="mb-3">
+                        <label asp-for="Patient_Name" class="form-label"></label> <!-- Label for the input -->
+                        <input asp-for="Patient_Name" class="form-control" readonly /> <!-- Read-only input field -->
+                        <span asp-validation-for="Patient_Name" class="text-danger"></span> <!-- Validation message -->
+                    </div>
+
+                    <!-- Specialization Field -->
+                    <div class="mb-3">
+                        <label asp-for="Specialization" class="form-label"></label>
+                        <input asp-for="Specialization" class="form-control" readonly /> <!-- Read-only input field -->
+                        <span asp-validation-for="Specialization" class="text-danger"></span> <!-- Validation message -->
+                    </div>
+
+                    <!-- Doctor Field -->
+                    <div class="mb-3">
+                        <label asp-for="Doctor" class="form-label"></label>
+                        <input asp-for="Doctor" class="form-control" readonly /> <!-- Read-only input field -->
+                        <span asp-validation-for="Doctor" class="text-danger"></span> <!-- Validation message -->
+                    </div>
+
+                    <!-- Appointment Date Field -->
+                    <div class="mb-3">
+                        <label asp-for="Appointment_Date" class="form-label"></label>
+                        <input asp-for="Appointment_Date" class="form-control" readonly /> <!-- Read-only input field -->
+                        <span asp-validation-for="Appointment_Date" class="text-danger"></span> <!-- Validation message -->
+                    </div>
+
+                    <!-- Status Dropdown -->
+                    <div class="mb-3">
+                        <label asp-for="Status" class="form-label">Status</label> <!-- Label for the dropdown -->
+                        <select asp-for="Status" class="form-select">
+                            <!-- Dropdown for selecting status -->
+                            <option>--- Select ---</option> <!-- Placeholder option -->
+                            <option value="Approved">Approved</option> <!-- Option for Approved status -->
+                            <option value="Pending">Pending</option> <!-- Option for Pending status -->
+                        </select>
+                        <span asp-validation-for="Status" class="text-danger"></span> <!-- Validation message -->
+                    </div>
+
+                    <!-- Submit Button -->
+                    <div class="mb-3 text-center">
+                        <input type="submit" value="Save" class="btn btn-primary" /> <!-- Button to submit the form -->
+                    </div>
+                </form>
+            </div>
+        </div>
+
+        <!-- Back to List Button -->
+        <div class="text-center mt-3">
+            <a asp-controller="AuthSecurity" asp-action="Appointment_List" class="btn btn-secondary">Back to List</a> <!-- Link to go back to the list -->
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script> <!-- Bootstrap JS -->
+</body>
+</html>

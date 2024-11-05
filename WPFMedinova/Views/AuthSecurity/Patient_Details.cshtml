@@ -1,0 +1,68 @@
+﻿@model WPFMedinova.Models.RegisterModel 
+
+@{
+    ViewData["Title"] = "Patient_Details"; // Set page title
+    Layout = null; // No layout applied
+}
+
+<link href="~/css/bootstrap.min.css" rel="stylesheet"> <!-- Link to Bootstrap CSS for styling -->
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <title>Patient Details</title> <!-- Page title -->
+</head>
+<body>
+    <div>
+        <h1 class="text-center" style="background-color:black;color:white">Patient Details</h1><br /> <!-- Header for patient details -->
+
+        <div class="text-center">
+            <a asp-controller="Account" asp-action="Appointment" class="">
+                <input type="submit" value="Book an Appointment" class="btn btn-success btn-lg" /> <!-- Button to book an appointment -->
+            </a>
+            <a asp-controller="AuthSecurity" asp-action="Appointment_List" class="">
+                <input type="submit" value="Appointment List" class="btn btn-success btn-lg" /> <!-- Button to view the appointment list -->
+            </a>
+        </div>
+        <hr />
+
+        <table class="table table-bordered mt-3 text-center">
+            <!-- Table for displaying patient details -->
+            <tr>
+                <th class="text-center">Name</th> 
+                <td>@Model.FirstName @Model.LastName</td>
+            </tr>
+            <tr>
+                <th class="text-center">Age</th> 
+                <td>@Model.Age</td>
+            </tr>
+            <tr>
+                <th class="text-center">Gender</th> 
+                <td>@Model.Gender</td> 
+            </tr>
+            <tr>
+                <th class="text-center">Mobile No</th> 
+                <td>@Model.MobileNo</td> 
+            </tr>
+            <tr>
+                <th class="text-center">Address</th>
+                <td>@Model.Address</td> 
+            </tr>
+        </table>
+    </div>
+
+    <!-- Buttons for Edit and Back to List -->
+    <div class="text-right mt-4">
+        <a asp-controller="AuthSecurity" asp-action="List_Patients" class="btn btn-secondary">Back to List</a> <!-- Button to go back to the list of patients -->
+        <a asp-action="EditPatient" asp-route-id="@Model.R_Id" class="btn btn-primary">Edit</a> <!-- Button to edit patient details -->
+    </div>
+
+    <!-- Logout button -->
+    <div class="text-center mt-3">
+        <a asp-controller="Account" asp-action="Logout">
+            <input type="submit" value="Logout" class="btn btn-danger btn-lg" /> <!-- Logout button -->
+        </a>
+    </div>
+</body>
+</html>

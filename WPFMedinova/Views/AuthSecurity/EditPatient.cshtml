@@ -1,0 +1,82 @@
+﻿@model WPFMedinova.Models.RegisterModel
+
+@{
+    ViewData["Title"] = "Edit Patient"; // Title of the page
+    Layout = null; // No layout used for this page
+}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"> <!-- Character set for the document -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Responsive design -->
+    <title>Edit Patient</title>
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet"> <!-- Bootstrap CSS -->
+</head>
+<body class="bg-info">
+    <!-- Set body background color to Bootstrap's info color -->
+    <div class="container d-flex justify-content-center align-items-center min-vh-100">
+        <!-- Centering the container -->
+        <div class="card shadow-lg border-primary" style="width: 40%;">
+            <!-- Card for the form -->
+            <div class="card-header text-center bg-primary text-white">
+                <!-- Card header with title -->
+                <h3 class="mb-0">Edit Patient Details</h3> <!-- Form title -->
+            </div>
+            <div class="card-body p-4">
+                <!-- Card body for form elements -->
+                <form asp-action="EditPatient" method="post">
+                    <!-- Form with action and method -->
+                    <div class="border rounded p-3 bg-light">
+                        <!-- Form border and background -->
+                        <!-- Input fields for patient details -->
+                        <div class="form-group mb-3">
+                            <label class="form-label font-weight-bold">First Name</label>
+                            <input type="text" asp-for="FirstName" class="form-control border border-primary" placeholder="Enter First Name" /> <!-- Input for first name -->
+                            <span asp-validation-for="FirstName" class="text-danger"></span> <!-- Validation message -->
+                        </div>
+                        <div class="form-group mb-3">
+                            <label class="form-label font-weight-bold">Last Name</label>
+                            <input type="text" asp-for="LastName" class="form-control border border-primary" placeholder="Enter Last Name" /> <!-- Input for last name -->
+                            <span asp-validation-for="LastName" class="text-danger"></span> <!-- Validation message -->
+                        </div>
+                        <div class="form-group mb-3">
+                            <label class="form-label font-weight-bold">Age</label>
+                            <input type="number" asp-for="Age" class="form-control border border-primary" placeholder="Enter Age" /> <!-- Input for age -->
+                            <span asp-validation-for="Age" class="text-danger"></span> <!-- Validation message -->
+                        </div>
+                        <div class="form-group mb-3">
+                            <label class="form-label font-weight-bold">Gender</label>
+                            <select asp-for="Gender" class="form-select border border-primary form-control">
+                                <!-- Dropdown for gender selection -->
+                                <option value="">Select Gender</option> <!-- Default option -->
+                                <option value="Male">Male</option> <!-- Option for Male -->
+                                <option value="Female">Female</option> <!-- Option for Female -->
+                                <option value="Other">Other</option> <!-- Option for Other -->
+                            </select>
+                            <span asp-validation-for="Gender" class="text-danger"></span> <!-- Validation message -->
+                        </div>
+                        <div class="form-group mb-3">
+                            <label class="form-label font-weight-bold">Mobile No</label>
+                            <input type="text" asp-for="MobileNo" class="form-control border border-primary" placeholder="Enter Mobile No" /> <!-- Input for mobile number -->
+                            <span asp-validation-for="MobileNo" class="text-danger"></span> <!-- Validation message -->
+                        </div>
+                        <div class="form-group mb-3">
+                            <label class="form-label font-weight-bold">Address</label>
+                            <textarea asp-for="Address" class="form-control border border-primary" placeholder="Enter Address"></textarea> <!-- Textarea for address -->
+                            <span asp-validation-for="Address" class="text-danger"></span> <!-- Validation message -->
+                        </div>
+                        <input type="hidden" asp-for="R_Id" /> <!-- Hidden field for patient ID -->
+                    </div>
+
+                    <!-- Centered buttons for form actions -->
+                    <div class="text-center mt-4">
+                        <input type="submit" value="Save Changes" class="btn btn-primary btn-lg me-2" /> <!-- Submit button -->
+                        <a asp-action="List_Patients" class="btn btn-outline-secondary btn-lg">Back to List</a> <!-- Link to back to the list -->
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

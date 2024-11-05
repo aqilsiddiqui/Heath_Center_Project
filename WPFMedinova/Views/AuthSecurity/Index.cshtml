@@ -1,0 +1,22 @@
+﻿@model WPFMedinova.Models.RegisterModel;
+
+@{
+    ViewData["Title"] = "Index";
+    //Layout = "~/Views/Shared/_Layout.cshtml";
+    Layout = null;
+}
+
+<link href="~/css/bootstrap.min.css" rel="stylesheet">
+
+
+<div class="text-center">
+    <h1>Welcome to the Admin.</h1>
+    <a asp-controller="AuthSecurity" asp-action="List_Doctor">List of Doctors</a><br /><br />
+    <a asp-controller="AuthSecurity" asp-action="List_Patients">List of Patients</a><br /><br />
+    
+    
+
+    <a asp-controller="AuthSecurity" asp-action="Appointment_List">Appointment List</a><br /><br />
+    
+    <a asp-controller="Account" asp-action="Logout" class=""><input type="submit" value="Logout" class="btn btn-danger btn-lg" /></a>
+</div>

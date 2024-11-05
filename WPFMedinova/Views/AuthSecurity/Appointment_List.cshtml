@@ -1,0 +1,73 @@
+﻿@model IEnumerable<WPFMedinova.Models.AppointmentModel> // Model declaration
+
+@{
+    Layout = null; // No layout applied
+}
+
+<link href="~/css/bootstrap.min.css" rel="stylesheet"> <!-- Link to Bootstrap CSS -->
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Appointment List</title> <!-- Page title -->
+</head>
+<body>
+
+    <h1 class="bg-dark text-white text-center">Appointment List</h1> <!-- Page header -->
+
+    <table class="table table-bordered text-center ">
+        <!-- Table structure -->
+        <thead>
+            <tr>
+                <th class="text-center">@Html.DisplayNameFor(model => model.Id)</th> <!-- Appointment ID -->
+                <th class="text-center">@Html.DisplayNameFor(model => model.Patient_Name)</th> <!-- Patient name -->
+                <th class="text-center">@Html.DisplayNameFor(model => model.Specialization)</th> <!-- Specialization -->
+                <th class="text-center">@Html.DisplayNameFor(model => model.Doctor)</th> <!-- Doctor's name -->
+                <th class="text-center">@Html.DisplayNameFor(model => model.Appointment_Date)</th> <!-- Appointment date -->
+                <th colspan="2" class="text-center">ACTION</th> <!-- Actions column -->
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <td>@Html.DisplayFor(modelItem => item.Id)</td> <!-- Display ID -->
+                    <td>@Html.DisplayFor(modelItem => item.Patient_Name)</td> <!-- Display Patient name -->
+                    <td>@Html.DisplayFor(modelItem => item.Specialization)</td> <!-- Display Specialization -->
+                    <td>@Html.DisplayFor(modelItem => item.Doctor)</td> <!-- Display Doctor's name -->
+                    <td>@Html.DisplayFor(modelItem => item.Appointment_Date)</td> <!-- Display Appointment date -->
+                    @if (ViewBag.role == "Doctor")
+                    {
+                        <td class="text-center"><a asp-controller="AuthSecurity" asp-action="Approve" asp-route-id="@item.Id" class="btn btn-primary">Approve</a></td> <!-- Approve button for Doctor -->
+                        <td class="text-center"><a asp-controller="AuthSecurity" asp-action="Reject" asp-route-id="@item.Id" class="btn btn-warning">Reject</a></td> <!-- Reject button for Doctor -->
+                    }
+
+                    <td class="text-center">
+                        <a asp-action="Edit" class="btn btn-warning" asp-route-id="@item.Id">Edit</a> <!-- Edit button -->
+                    </td>
+                    <td class="text-center">
+                        <a asp-action="Delete" class="btn btn-danger" asp-route-id="@item.Id" onclick="return confirm('Are you sure you want to delete this appointment?');">Delete</a> <!-- Delete button with confirmation -->
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+
+    @if (ViewBag.role == "Admin")
+    {
+        <a asp-controller="AuthSecurity" asp-action="Index">Go back</a> <!-- Go back link for Admin -->
+    }
+    else if (ViewBag.role == "Doctor")
+    {
+        <a asp-controller="AuthSecurity" asp-action="List_Patients">Go back</a> <!-- Go back link for Doctor -->
+    }
+    else
+    {
+        <a asp-controller="AuthSecurity" asp-action="Patient_Details">Go back</a> <!-- Go back link for Patient -->
+    }
+
+    <br />
+    <a asp-controller="AuthSecurity" asp-action="Approved_List" class="btn btn-primary">Approved List</a> <!-- Link to Approved List -->
+
+</body>
+</html>

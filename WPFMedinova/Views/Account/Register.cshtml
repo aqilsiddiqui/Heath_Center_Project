@@ -1,0 +1,105 @@
+﻿@model WPFMedinova.Models.RegisterModel;
+
+@{
+    ViewData["Title"] = "Register";
+    Layout = null;
+}
+@Html.Raw(TempData["insert"]);
+
+<link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+<body style="background-color: #f7f8fc;">
+    <div class="container d-flex justify-content-center align-items-center min-vh-100">
+        <div class="col-lg-6 col-md-8 col-sm-10 p-4 rounded shadow" style="background-color: #5d9cec;">
+            <h3 class="text-center text-light mb-4">Patient Registration</h3>
+            <form id="registration-form" class="form" asp-controller="Account" asp-action="Register" method="post">
+                <div asp-validation-summary="ModelOnly" class="text-warning mb-3"></div>
+
+                <div class="form-group">
+                    <label for="firstname" class="text-light">First Name</label>
+                    <input type="text" name="firstname" id="firstname" class="form-control rounded-pill" placeholder="Enter First Name">
+                    <span asp-validation-for="FirstName" class="text-warning"></span>
+                </div>
+
+                <div class="form-group mt-3">
+                    <label for="lastname" class="text-light">Last Name</label>
+                    <input type="text" name="lastname" id="lastname" class="form-control rounded-pill" placeholder="Enter Last Name">
+                    <span asp-validation-for="LastName" class="text-warning"></span>
+                </div>
+
+                <div class="form-group mt-3">
+                    <label for="age" class="text-light">Age</label>
+                    <input type="text" name="age" id="age" class="form-control rounded-pill" placeholder="Enter Age">
+                    <span asp-validation-for="Age" class="text-warning"></span>
+                </div>
+
+                <div class="form-group mt-3">
+                    <label class="text-light">Gender</label>
+                    <div class="d-flex align-items-center mt-2">
+                        <div class="form-check me-3">
+                            <input type="radio" name="gender" id="genderMale" value="male" class="form-check-input">
+                            <label for="genderMale" class="form-check-label text-light">Male</label>
+                        </div>
+                        <div class="form-check">
+                            <input type="radio" name="gender" id="genderFemale" value="female" class="form-check-input">
+                            <label for="genderFemale" class="form-check-label text-light">Female</label>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="form-group mt-3">
+                    <label for="mobileno" class="text-light">Mobile No</label>
+                    <input type="text" name="mobileno" id="mobileno" class="form-control rounded-pill" placeholder="Enter Mobile No">
+                    <span asp-validation-for="MobileNo" class="text-warning"></span>
+                </div>
+
+                <div class="form-group mt-3">
+                    <label for="address" class="text-light">Address</label>
+                    <input type="text" name="address" id="address" class="form-control rounded-pill" placeholder="Enter Address">
+                    <span asp-validation-for="Address" class="text-warning"></span>
+                </div>
+
+                <div class="form-group mt-3">
+                    <label for="role" class="text-light">Role</label>
+                    <select name="Role" id="role" class="form-select rounded-pill">
+                        <option value="" selected disabled>---Select---</option>
+                        <option value="Patient">Patient</option>
+                    </select>
+                    <span asp-validation-for="Role" class="text-warning"></span>
+                </div>
+
+                <div class="form-group mt-3">
+                    <label for="username" class="text-light">Username</label>
+                    <input type="text" name="username" id="username" class="form-control rounded-pill" placeholder="Enter Username">
+                    <span asp-validation-for="Username" class="text-warning"></span>
+                </div>
+
+                <div class="form-group mt-3">
+                    <label for="password" class="text-light">Password</label>
+                    <input type="password" name="password" id="password" class="form-control rounded-pill" placeholder="Enter Password">
+                    <span asp-validation-for="Password" class="text-warning"></span>
+                </div>
+
+                <div class="form-group mt-3">
+                    <label for="confirm_password" class="text-light">Confirm Password</label>
+                    <input type="password" name="confirm_password" id="confirm_password" class="form-control rounded-pill" placeholder="Enter Confirm Password">
+                    <span asp-validation-for="Confirm_Password" class="text-warning"></span>
+                </div>
+
+                <div class="form-group text-center mt-4">
+                    <button type="submit" class="btn btn-light rounded-pill px-4">Submit</button>
+                </div>
+
+                <div class="text-center mt-3">
+                    <a asp-controller="Home" asp-action="Index" class="text-light">Go back</a>
+                </div>
+            </form>
+        </div>
+    </div>
+</body>
+
+@section scripts {
+    <partial name="_ValidationScriptsPartial" />
+}

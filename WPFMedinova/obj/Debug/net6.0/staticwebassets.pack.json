@@ -1,0 +1,889 @@
+{
+  "Files": [
+    {
+      "Id": "D:\\Final Project\\Health Center using EF\\WPFMedinova_Core\\WPFMedinova\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\WPFMedinova.bundle.scp.css",
+      "PackagePath": "staticwebassets\\WPFMedinova.bundle.scp.css"
+    },
+    {
+      "Id": "D:\\Final Project\\Health Center using EF\\WPFMedinova_Core\\WPFMedinova\\wwwroot\\DOCUMENTATION\\assets\\blueprint-css\\ie.css",
+      "PackagePath": "staticwebassets\\DOCUMENTATION\\assets\\blueprint-css\\ie.css"
+    },
+    {
+      "Id": "D:\\Final Project\\Health Center using EF\\WPFMedinova_Core\\WPFMedinova\\wwwroot\\DOCUMENTATION\\assets\\blueprint-css\\plugins\\buttons\\icons\\cross.png",
+      "PackagePath": "staticwebassets\\DOCUMENTATION\\assets\\blueprint-css\\plugins\\buttons\\icons\\cross.png"
+    },
+    {
+      "Id": "D:\\Final Project\\Health Center using EF\\WPFMedinova_Core\\WPFMedinova\\wwwroot\\DOCUMENTATION\\assets\\blueprint-css\\plugins\\buttons\\icons\\key.png",
+      "PackagePath": "staticwebassets\\DOCUMENTATION\\assets\\blueprint-css\\plugins\\buttons\\icons\\key.png"
+    },
+    {
+      "Id": "D:\\Final Project\\Health Center using EF\\WPFMedinova_Core\\WPFMedinova\\wwwroot\\DOCUMENTATION\\assets\\blueprint-css\\plugins\\buttons\\icons\\tick.png",
+      "PackagePath": "staticwebassets\\DOCUMENTATION\\assets\\blueprint-css\\plugins\\buttons\\icons\\tick.png"
+    },
+    {
+      "Id": "D:\\Final Project\\Health Center using EF\\WPFMedinova_Core\\WPFMedinova\\wwwroot\\DOCUMENTATION\\assets\\blueprint-css\\plugins\\buttons\\readme.txt",
+      "PackagePath": "staticwebassets\\DOCUMENTATION\\assets\\blueprint-css\\plugins\\buttons\\readme.txt"
+    },
+    {
+      "Id": "D:\\Final Project\\Health Center using EF\\WPFMedinova_Core\\WPFMedinova\\wwwroot\\DOCUMENTATION\\assets\\blueprint-css\\plugins\\buttons\\screen.css",
+      "PackagePath": "staticwebassets\\DOCUMENTATION\\assets\\blueprint-css\\plugins\\buttons\\screen.css"
+    },
+    {
+      "Id": "D:\\Final Project\\Health Center using EF\\WPFMedinova_Core\\WPFMedinova\\wwwroot\\DOCUMENTATION\\assets\\blueprint-css\\plugins\\fancy-type\\readme.txt",
+      "PackagePath": "staticwebassets\\DOCUMENTATION\\assets\\blueprint-css\\plugins\\fancy-type\\readme.txt"
+    },
+    {
+      "Id": "D:\\Final Project\\Health Center using EF\\WPFMedinova_Core\\WPFMedinova\\wwwroot\\DOCUMENTATION\\assets\\blueprint-css\\plugins\\fancy-type\\screen.css",
+      "PackagePath": "staticwebassets\\DOCUMENTATION\\assets\\blueprint-css\\plugins\\fancy-type\\screen.css"
+    },
+    {
+      "Id": "D:\\Final Project\\Health Center using EF\\WPFMedinova_Core\\WPFMedinova\\wwwroot\\DOCUMENTATION\\assets\\blueprint-css\\plugins\\link-icons\\icons\\doc.png",
+      "PackagePath": "staticwebassets\\DOCUMENTATION\\assets\\blueprint-css\\plugins\\link-icons\\icons\\doc.png"
+    },
+    {
+      "Id": "D:\\Final Project\\Health Center using EF\\WPFMedinova_Core\\WPFMedinova\\wwwroot\\DOCUMENTATION\\assets\\blueprint-css\\plugins\\link-icons\\icons\\email.png",
+      "PackagePath": "staticwebassets\\DOCUMENTATION\\assets\\blueprint-css\\plugins\\link-icons\\icons\\email.png"
+    },
+    {
+      "Id": "D:\\Final Project\\Health Center using EF\\WPFMedinova_Core\\WPFMedinova\\wwwroot\\DOCUMENTATION\\assets\\blueprint-css\\plugins\\link-icons\\icons\\external.png",
+      "PackagePath": "staticwebassets\\DOCUMENTATION\\assets\\blueprint-css\\plugins\\link-icons\\icons\\external.png"
+    },
+    {
+      "Id": "D:\\Final Project\\Health Center using EF\\WPFMedinova_Core\\WPFMedinova\\wwwroot\\DOCUMENTATION\\assets\\blueprint-css\\plugins\\link-icons\\icons\\feed.png",
+      "PackagePath": "staticwebassets\\DOCUMENTATION\\assets\\blueprint-css\\plugins\\link-icons\\icons\\feed.png"
+    },
+    {
+      "Id": "D:\\Final Project\\Health Center using EF\\WPFMedinova_Core\\WPFMedinova\\wwwroot\\DOCUMENTATION\\assets\\blueprint-css\\plugins\\link-icons\\icons\\im.png",
+      "PackagePath": "staticwebassets\\DOCUMENTATION\\assets\\blueprint-css\\plugins\\link-icons\\icons\\im.png"
+    },
+    {
+      "Id": "D:\\Final Project\\Health Center using EF\\WPFMedinova_Core\\WPFMedinova\\wwwroot\\DOCUMENTATION\\assets\\blueprint-css\\plugins\\link-icons\\icons\\pdf.png",
+      "PackagePath": "staticwebassets\\DOCUMENTATION\\assets\\blueprint-css\\plugins\\link-icons\\icons\\pdf.png"
+    },
+    {
+      "Id": "D:\\Final Project\\Health Center using EF\\WPFMedinova_Core\\WPFMedinova\\wwwroot\\DOCUMENTATION\\assets\\blueprint-css\\plugins\\link-icons\\icons\\visited.png",
+      "PackagePath": "staticwebassets\\DOCUMENTATION\\assets\\blueprint-css\\plugins\\link-icons\\icons\\visited.png"
+    },
+    {
+      "Id": "D:\\Final Project\\Health Center using EF\\WPFMedinova_Core\\WPFMedinova\\wwwroot\\DOCUMENTATION\\assets\\blueprint-css\\plugins\\link-icons\\icons\\xls.png",
+      "PackagePath": "staticwebassets\\DOCUMENTATION\\assets\\blueprint-css\\plugins\\link-icons\\icons\\xls.png"
+    },
+    {
+      "Id": "D:\\Final Project\\Health Center using EF\\WPFMedinova_Core\\WPFMedinova\\wwwroot\\DOCUMENTATION\\assets\\blueprint-css\\plugins\\link-icons\\readme.txt",
+      "PackagePath": "staticwebassets\\DOCUMENTATION\\assets\\blueprint-css\\plugins\\link-icons\\readme.txt"
+    },
+    {
+      "Id": "D:\\Final Project\\Health Center using EF\\WPFMedinova_Core\\WPFMedinova\\wwwroot\\DOCUMENTATION\\assets\\blueprint-css\\plugins\\link-icons\\screen.css",
+      "PackagePath": "staticwebassets\\DOCUMENTATION\\assets\\blueprint-css\\plugins\\link-icons\\screen.css"
+    },
+    {
+      "Id": "D:\\Final Project\\Health Center using EF\\WPFMedinova_Core\\WPFMedinova\\wwwroot\\DOCUMENTATION\\assets\\blueprint-css\\plugins\\rtl\\readme.txt",
+      "PackagePath": "staticwebassets\\DOCUMENTATION\\assets\\blueprint-css\\plugins\\rtl\\readme.txt"
+    },
+    {
+      "Id": "D:\\Final Project\\Health Center using EF\\WPFMedinova_Core\\WPFMedinova\\wwwroot\\DOCUMENTATION\\assets\\blueprint-css\\plugins\\rtl\\screen.css",
+      "PackagePath": "staticwebassets\\DOCUMENTATION\\assets\\blueprint-css\\plugins\\rtl\\screen.css"
+    },
+    {
+      "Id": "D:\\Final Project\\Health Center using EF\\WPFMedinova_Core\\WPFMedinova\\wwwroot\\DOCUMENTATION\\assets\\blueprint-css\\print.css",
+      "PackagePath": "staticwebassets\\DOCUMENTATION\\assets\\blueprint-css\\print.css"
+    },
+    {
+      "Id": "D:\\Final Project\\Health Center using EF\\WPFMedinova_Core\\WPFMedinova\\wwwroot\\DOCUMENTATION\\assets\\blueprint-css\\screen.css",
+      "PackagePath": "staticwebassets\\DOCUMENTATION\\assets\\blueprint-css\\screen.css"
+    },
+    {
+      "Id": "D:\\Final Project\\Health Center using EF\\WPFMedinova_Core\\WPFMedinova\\wwwroot\\DOCUMENTATION\\assets\\blueprint-css\\src\\forms.css",
+      "PackagePath": "staticwebassets\\DOCUMENTATION\\assets\\blueprint-css\\src\\forms.css"
+    },
+    {
+      "Id": "D:\\Final Project\\Health Center using EF\\WPFMedinova_Core\\WPFMedinova\\wwwroot\\DOCUMENTATION\\assets\\blueprint-css\\src\\grid.css",
+      "PackagePath": "staticwebassets\\DOCUMENTATION\\assets\\blueprint-css\\src\\grid.css"
+    },
+    {
+      "Id": "D:\\Final Project\\Health Center using EF\\WPFMedinova_Core\\WPFMedinova\\wwwroot\\DOCUMENTATION\\assets\\blueprint-css\\src\\grid.png",
+      "PackagePath": "staticwebassets\\DOCUMENTATION\\assets\\blueprint-css\\src\\grid.png"
+    },
+    {
+      "Id": "D:\\Final Project\\Health Center using EF\\WPFMedinova_Core\\WPFMedinova\\wwwroot\\DOCUMENTATION\\assets\\blueprint-css\\src\\ie.css",
+      "PackagePath": "staticwebassets\\DOCUMENTATION\\assets\\blueprint-css\\src\\ie.css"
+    },
+    {
+      "Id": "D:\\Final Project\\Health Center using EF\\WPFMedinova_Core\\WPFMedinova\\wwwroot\\DOCUMENTATION\\assets\\blueprint-css\\src\\print.css",
+      "PackagePath": "staticwebassets\\DOCUMENTATION\\assets\\blueprint-css\\src\\print.css"
+    },
+    {
+      "Id": "D:\\Final Project\\Health Center using EF\\WPFMedinova_Core\\WPFMedinova\\wwwroot\\DOCUMENTATION\\assets\\blueprint-css\\src\\reset.css",
+      "PackagePath": "staticwebassets\\DOCUMENTATION\\assets\\blueprint-css\\src\\reset.css"
+    },
+    {
+      "Id": "D:\\Final Project\\Health Center using EF\\WPFMedinova_Core\\WPFMedinova\\wwwroot\\DOCUMENTATION\\assets\\blueprint-css\\src\\typography.css",
+      "PackagePath": "staticwebassets\\DOCUMENTATION\\assets\\blueprint-css\\src\\typography.css"
+    },
+    {
+      "Id": "D:\\Final Project\\Health Center using EF\\WPFMedinova_Core\\WPFMedinova\\wwwroot\\DOCUMENTATION\\assets\\images\\favicon.png",
+      "PackagePath": "staticwebassets\\DOCUMENTATION\\assets\\images\\favicon.png"
+    },
+    {
+      "Id": "D:\\Final Project\\Health Center using EF\\WPFMedinova_Core\\WPFMedinova\\wwwroot\\DOCUMENTATION\\index.html",
+      "PackagePath": "staticwebassets\\DOCUMENTATION\\index.html"
+    },
+    {
+      "Id": "D:\\Final Project\\Health Center using EF\\WPFMedinova_Core\\WPFMedinova\\wwwroot\\DOCUMENTATION\\syntax-highlighter\\scripts\\shAutoloader.js",
+      "PackagePath": "staticwebassets\\DOCUMENTATION\\syntax-highlighter\\scripts\\shAutoloader.js"
+    },
+    {
+      "Id": "D:\\Final Project\\Health Center using EF\\WPFMedinova_Core\\WPFMedinova\\wwwroot\\DOCUMENTATION\\syntax-highlighter\\scripts\\shBrushAS3.js",
+      "PackagePath": "staticwebassets\\DOCUMENTATION\\syntax-highlighter\\scripts\\shBrushAS3.js"
+    },
+    {
+      "Id": "D:\\Final Project\\Health Center using EF\\WPFMedinova_Core\\WPFMedinova\\wwwroot\\DOCUMENTATION\\syntax-highlighter\\scripts\\shBrushAppleScript.js",
+      "PackagePath": "staticwebassets\\DOCUMENTATION\\syntax-highlighter\\scripts\\shBrushAppleScript.js"
+    },
+    {
+      "Id": "D:\\Final Project\\Health Center using EF\\WPFMedinova_Core\\WPFMedinova\\wwwroot\\DOCUMENTATION\\syntax-highlighter\\scripts\\shBrushBash.js",
+      "PackagePath": "staticwebassets\\DOCUMENTATION\\syntax-highlighter\\scripts\\shBrushBash.js"
+    },
+    {
+      "Id": "D:\\Final Project\\Health Center using EF\\WPFMedinova_Core\\WPFMedinova\\wwwroot\\DOCUMENTATION\\syntax-highlighter\\scripts\\shBrushCSharp.js",
+      "PackagePath": "staticwebassets\\DOCUMENTATION\\syntax-highlighter\\scripts\\shBrushCSharp.js"
+    },
+    {
+      "Id": "D:\\Final Project\\Health Center using EF\\WPFMedinova_Core\\WPFMedinova\\wwwroot\\DOCUMENTATION\\syntax-highlighter\\scripts\\shBrushColdFusion.js",
+      "PackagePath": "staticwebassets\\DOCUMENTATION\\syntax-highlighter\\scripts\\shBrushColdFusion.js"
+    },
+    {
+      "Id": "D:\\Final Project\\Health Center using EF\\WPFMedinova_Core\\WPFMedinova\\wwwroot\\DOCUMENTATION\\syntax-highlighter\\scripts\\shBrushCpp.js",
+      "PackagePath": "staticwebassets\\DOCUMENTATION\\syntax-highlighter\\scripts\\shBrushCpp.js"
+    },
+    {
+      "Id": "D:\\Final Project\\Health Center using EF\\WPFMedinova_Core\\WPFMedinova\\wwwroot\\DOCUMENTATION\\syntax-highlighter\\scripts\\shBrushCss.js",
+      "PackagePath": "staticwebassets\\DOCUMENTATION\\syntax-highlighter\\scripts\\shBrushCss.js"
+    },
+    {
+      "Id": "D:\\Final Project\\Health Center using EF\\WPFMedinova_Core\\WPFMedinova\\wwwroot\\DOCUMENTATION\\syntax-highlighter\\scripts\\shBrushDelphi.js",
+      "PackagePath": "staticwebassets\\DOCUMENTATION\\syntax-highlighter\\scripts\\shBrushDelphi.js"
+    },
+    {
+      "Id": "D:\\Final Project\\Health Center using EF\\WPFMedinova_Core\\WPFMedinova\\wwwroot\\DOCUMENTATION\\syntax-highlighter\\scripts\\shBrushDiff.js",
+      "PackagePath": "staticwebassets\\DOCUMENTATION\\syntax-highlighter\\scripts\\shBrushDiff.js"
+    },
+    {
+      "Id": "D:\\Final Project\\Health Center using EF\\WPFMedinova_Core\\WPFMedinova\\wwwroot\\DOCUMENTATION\\syntax-highlighter\\scripts\\shBrushErlang.js",
+      "PackagePath": "staticwebassets\\DOCUMENTATION\\syntax-highlighter\\scripts\\shBrushErlang.js"
+    },
+    {
+      "Id": "D:\\Final Project\\Health Center using EF\\WPFMedinova_Core\\WPFMedinova\\wwwroot\\DOCUMENTATION\\syntax-highlighter\\scripts\\shBrushGroovy.js",
+      "PackagePath": "staticwebassets\\DOCUMENTATION\\syntax-highlighter\\scripts\\shBrushGroovy.js"
+    },
+    {
+      "Id": "D:\\Final Project\\Health Center using EF\\WPFMedinova_Core\\WPFMedinova\\wwwroot\\DOCUMENTATION\\syntax-highlighter\\scripts\\shBrushJScript.js",
+      "PackagePath": "staticwebassets\\DOCUMENTATION\\syntax-highlighter\\scripts\\shBrushJScript.js"
+    },
+    {
+      "Id": "D:\\Final Project\\Health Center using EF\\WPFMedinova_Core\\WPFMedinova\\wwwroot\\DOCUMENTATION\\syntax-highlighter\\scripts\\shBrushJava.js",
+      "PackagePath": "staticwebassets\\DOCUMENTATION\\syntax-highlighter\\scripts\\shBrushJava.js"
+    },
+    {
+      "Id": "D:\\Final Project\\Health Center using EF\\WPFMedinova_Core\\WPFMedinova\\wwwroot\\DOCUMENTATION\\syntax-highlighter\\scripts\\shBrushJavaFX.js",
+      "PackagePath": "staticwebassets\\DOCUMENTATION\\syntax-highlighter\\scripts\\shBrushJavaFX.js"
+    },
+    {
+      "Id": "D:\\Final Project\\Health Center using EF\\WPFMedinova_Core\\WPFMedinova\\wwwroot\\DOCUMENTATION\\syntax-highlighter\\scripts\\shBrushPerl.js",
+      "PackagePath": "staticwebassets\\DOCUMENTATION\\syntax-highlighter\\scripts\\shBrushPerl.js"
+    },
+    {
+      "Id": "D:\\Final Project\\Health Center using EF\\WPFMedinova_Core\\WPFMedinova\\wwwroot\\DOCUMENTATION\\syntax-highlighter\\scripts\\shBrushPhp.js",
+      "PackagePath": "staticwebassets\\DOCUMENTATION\\syntax-highlighter\\scripts\\shBrushPhp.js"
+    },
+    {
+      "Id": "D:\\Final Project\\Health Center using EF\\WPFMedinova_Core\\WPFMedinova\\wwwroot\\DOCUMENTATION\\syntax-highlighter\\scripts\\shBrushPlain.js",
+      "PackagePath": "staticwebassets\\DOCUMENTATION\\syntax-highlighter\\scripts\\shBrushPlain.js"
+    },
+    {
+      "Id": "D:\\Final Project\\Health Center using EF\\WPFMedinova_Core\\WPFMedinova\\wwwroot\\DOCUMENTATION\\syntax-highlighter\\scripts\\shBrushPowerShell.js",
+      "PackagePath": "staticwebassets\\DOCUMENTATION\\syntax-highlighter\\scripts\\shBrushPowerShell.js"
+    },
+    {
+      "Id": "D:\\Final Project\\Health Center using EF\\WPFMedinova_Core\\WPFMedinova\\wwwroot\\DOCUMENTATION\\syntax-highlighter\\scripts\\shBrushPython.js",
+      "PackagePath": "staticwebassets\\DOCUMENTATION\\syntax-highlighter\\scripts\\shBrushPython.js"
+    },
+    {
+      "Id": "D:\\Final Project\\Health Center using EF\\WPFMedinova_Core\\WPFMedinova\\wwwroot\\DOCUMENTATION\\syntax-highlighter\\scripts\\shBrushRuby.js",
+      "PackagePath": "staticwebassets\\DOCUMENTATION\\syntax-highlighter\\scripts\\shBrushRuby.js"
+    },
+    {
+      "Id": "D:\\Final Project\\Health Center using EF\\WPFMedinova_Core\\WPFMedinova\\wwwroot\\DOCUMENTATION\\syntax-highlighter\\scripts\\shBrushSass.js",
+      "PackagePath": "staticwebassets\\DOCUMENTATION\\syntax-highlighter\\scripts\\shBrushSass.js"
+    },
+    {
+      "Id": "D:\\Final Project\\Health Center using EF\\WPFMedinova_Core\\WPFMedinova\\wwwroot\\DOCUMENTATION\\syntax-highlighter\\scripts\\shBrushScala.js",
+      "PackagePath": "staticwebassets\\DOCUMENTATION\\syntax-highlighter\\scripts\\shBrushScala.js"
+    },
+    {
+      "Id": "D:\\Final Project\\Health Center using EF\\WPFMedinova_Core\\WPFMedinova\\wwwroot\\DOCUMENTATION\\syntax-highlighter\\scripts\\shBrushSql.js",
+      "PackagePath": "staticwebassets\\DOCUMENTATION\\syntax-highlighter\\scripts\\shBrushSql.js"
+    },
+    {
+      "Id": "D:\\Final Project\\Health Center using EF\\WPFMedinova_Core\\WPFMedinova\\wwwroot\\DOCUMENTATION\\syntax-highlighter\\scripts\\shBrushVb.js",
+      "PackagePath": "staticwebassets\\DOCUMENTATION\\syntax-highlighter\\scripts\\shBrushVb.js"
+    },
+    {
+      "Id": "D:\\Final Project\\Health Center using EF\\WPFMedinova_Core\\WPFMedinova\\wwwroot\\DOCUMENTATION\\syntax-highlighter\\scripts\\shBrushXml.js",
+      "PackagePath": "staticwebassets\\DOCUMENTATION\\syntax-highlighter\\scripts\\shBrushXml.js"
+    },
+    {
+      "Id": "D:\\Final Project\\Health Center using EF\\WPFMedinova_Core\\WPFMedinova\\wwwroot\\DOCUMENTATION\\syntax-highlighter\\scripts\\shCore.js",
+      "PackagePath": "staticwebassets\\DOCUMENTATION\\syntax-highlighter\\scripts\\shCore.js"
+    },
+    {
+      "Id": "D:\\Final Project\\Health Center using EF\\WPFMedinova_Core\\WPFMedinova\\wwwroot\\DOCUMENTATION\\syntax-highlighter\\scripts\\shLegacy.js",
+      "PackagePath": "staticwebassets\\DOCUMENTATION\\syntax-highlighter\\scripts\\shLegacy.js"
+    },
+    {
+      "Id": "D:\\Final Project\\Health Center using EF\\WPFMedinova_Core\\WPFMedinova\\wwwroot\\DOCUMENTATION\\syntax-highlighter\\styles\\shCore.css",
+      "PackagePath": "staticwebassets\\DOCUMENTATION\\syntax-highlighter\\styles\\shCore.css"
+    },
+    {
+      "Id": "D:\\Final Project\\Health Center using EF\\WPFMedinova_Core\\WPFMedinova\\wwwroot\\DOCUMENTATION\\syntax-highlighter\\styles\\shCoreDefault.css",
+      "PackagePath": "staticwebassets\\DOCUMENTATION\\syntax-highlighter\\styles\\shCoreDefault.css"
+    },
+    {
+      "Id": "D:\\Final Project\\Health Center using EF\\WPFMedinova_Core\\WPFMedinova\\wwwroot\\DOCUMENTATION\\syntax-highlighter\\styles\\shCoreDjango.css",
+      "PackagePath": "staticwebassets\\DOCUMENTATION\\syntax-highlighter\\styles\\shCoreDjango.css"
+    },
+    {
+      "Id": "D:\\Final Project\\Health Center using EF\\WPFMedinova_Core\\WPFMedinova\\wwwroot\\DOCUMENTATION\\syntax-highlighter\\styles\\shCoreEclipse.css",
+      "PackagePath": "staticwebassets\\DOCUMENTATION\\syntax-highlighter\\styles\\shCoreEclipse.css"
+    },
+    {
+      "Id": "D:\\Final Project\\Health Center using EF\\WPFMedinova_Core\\WPFMedinova\\wwwroot\\DOCUMENTATION\\syntax-highlighter\\styles\\shCoreEmacs.css",
+      "PackagePath": "staticwebassets\\DOCUMENTATION\\syntax-highlighter\\styles\\shCoreEmacs.css"
+    },
+    {
+      "Id": "D:\\Final Project\\Health Center using EF\\WPFMedinova_Core\\WPFMedinova\\wwwroot\\DOCUMENTATION\\syntax-highlighter\\styles\\shCoreFadeToGrey.css",
+      "PackagePath": "staticwebassets\\DOCUMENTATION\\syntax-highlighter\\styles\\shCoreFadeToGrey.css"
+    },
+    {
+      "Id": "D:\\Final Project\\Health Center using EF\\WPFMedinova_Core\\WPFMedinova\\wwwroot\\DOCUMENTATION\\syntax-highlighter\\styles\\shCoreMDUltra.css",
+      "PackagePath": "staticwebassets\\DOCUMENTATION\\syntax-highlighter\\styles\\shCoreMDUltra.css"
+    },
+    {
+      "Id": "D:\\Final Project\\Health Center using EF\\WPFMedinova_Core\\WPFMedinova\\wwwroot\\DOCUMENTATION\\syntax-highlighter\\styles\\shCoreMidnight.css",
+      "PackagePath": "staticwebassets\\DOCUMENTATION\\syntax-highlighter\\styles\\shCoreMidnight.css"
+    },
+    {
+      "Id": "D:\\Final Project\\Health Center using EF\\WPFMedinova_Core\\WPFMedinova\\wwwroot\\DOCUMENTATION\\syntax-highlighter\\styles\\shCoreRDark.css",
+      "PackagePath": "staticwebassets\\DOCUMENTATION\\syntax-highlighter\\styles\\shCoreRDark.css"
+    },
+    {
+      "Id": "D:\\Final Project\\Health Center using EF\\WPFMedinova_Core\\WPFMedinova\\wwwroot\\DOCUMENTATION\\syntax-highlighter\\styles\\shThemeDefault.css",
+      "PackagePath": "staticwebassets\\DOCUMENTATION\\syntax-highlighter\\styles\\shThemeDefault.css"
+    },
+    {
+      "Id": "D:\\Final Project\\Health Center using EF\\WPFMedinova_Core\\WPFMedinova\\wwwroot\\DOCUMENTATION\\syntax-highlighter\\styles\\shThemeDjango.css",
+      "PackagePath": "staticwebassets\\DOCUMENTATION\\syntax-highlighter\\styles\\shThemeDjango.css"
+    },
+    {
+      "Id": "D:\\Final Project\\Health Center using EF\\WPFMedinova_Core\\WPFMedinova\\wwwroot\\DOCUMENTATION\\syntax-highlighter\\styles\\shThemeEclipse.css",
+      "PackagePath": "staticwebassets\\DOCUMENTATION\\syntax-highlighter\\styles\\shThemeEclipse.css"
+    },
+    {
+      "Id": "D:\\Final Project\\Health Center using EF\\WPFMedinova_Core\\WPFMedinova\\wwwroot\\DOCUMENTATION\\syntax-highlighter\\styles\\shThemeEmacs.css",
+      "PackagePath": "staticwebassets\\DOCUMENTATION\\syntax-highlighter\\styles\\shThemeEmacs.css"
+    },
+    {
+      "Id": "D:\\Final Project\\Health Center using EF\\WPFMedinova_Core\\WPFMedinova\\wwwroot\\DOCUMENTATION\\syntax-highlighter\\styles\\shThemeFadeToGrey.css",
+      "PackagePath": "staticwebassets\\DOCUMENTATION\\syntax-highlighter\\styles\\shThemeFadeToGrey.css"
+    },
+    {
+      "Id": "D:\\Final Project\\Health Center using EF\\WPFMedinova_Core\\WPFMedinova\\wwwroot\\DOCUMENTATION\\syntax-highlighter\\styles\\shThemeMDUltra.css",
+      "PackagePath": "staticwebassets\\DOCUMENTATION\\syntax-highlighter\\styles\\shThemeMDUltra.css"
+    },
+    {
+      "Id": "D:\\Final Project\\Health Center using EF\\WPFMedinova_Core\\WPFMedinova\\wwwroot\\DOCUMENTATION\\syntax-highlighter\\styles\\shThemeMidnight.css",
+      "PackagePath": "staticwebassets\\DOCUMENTATION\\syntax-highlighter\\styles\\shThemeMidnight.css"
+    },
+    {
+      "Id": "D:\\Final Project\\Health Center using EF\\WPFMedinova_Core\\WPFMedinova\\wwwroot\\DOCUMENTATION\\syntax-highlighter\\styles\\shThemeRDark.css",
+      "PackagePath": "staticwebassets\\DOCUMENTATION\\syntax-highlighter\\styles\\shThemeRDark.css"
+    },
+    {
+      "Id": "D:\\Final Project\\Health Center using EF\\WPFMedinova_Core\\WPFMedinova\\wwwroot\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "D:\\Final Project\\Health Center using EF\\WPFMedinova_Core\\WPFMedinova\\wwwroot\\css\\default-skin.css",
+      "PackagePath": "staticwebassets\\css\\default-skin.css"
+    },
+    {
+      "Id": "D:\\Final Project\\Health Center using EF\\WPFMedinova_Core\\WPFMedinova\\wwwroot\\css\\font-awesome.min.css",
+      "PackagePath": "staticwebassets\\css\\font-awesome.min.css"
+    },
+    {
+      "Id": "D:\\Final Project\\Health Center using EF\\WPFMedinova_Core\\WPFMedinova\\wwwroot\\css\\photoswipe.css",
+      "PackagePath": "staticwebassets\\css\\photoswipe.css"
+    },
+    {
+      "Id": "D:\\Final Project\\Health Center using EF\\WPFMedinova_Core\\WPFMedinova\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "D:\\Final Project\\Health Center using EF\\WPFMedinova_Core\\WPFMedinova\\wwwroot\\css\\slick.css",
+      "PackagePath": "staticwebassets\\css\\slick.css"
+    },
+    {
+      "Id": "D:\\Final Project\\Health Center using EF\\WPFMedinova_Core\\WPFMedinova\\wwwroot\\css\\themes\\blue-theme.css",
+      "PackagePath": "staticwebassets\\css\\themes\\blue-theme.css"
+    },
+    {
+      "Id": "D:\\Final Project\\Health Center using EF\\WPFMedinova_Core\\WPFMedinova\\wwwroot\\css\\themes\\bridge-theme.css",
+      "PackagePath": "staticwebassets\\css\\themes\\bridge-theme.css"
+    },
+    {
+      "Id": "D:\\Final Project\\Health Center using EF\\WPFMedinova_Core\\WPFMedinova\\wwwroot\\css\\themes\\dark-red-theme.css",
+      "PackagePath": "staticwebassets\\css\\themes\\dark-red-theme.css"
+    },
+    {
+      "Id": "D:\\Final Project\\Health Center using EF\\WPFMedinova_Core\\WPFMedinova\\wwwroot\\css\\themes\\default-theme.css",
+      "PackagePath": "staticwebassets\\css\\themes\\default-theme.css"
+    },
+    {
+      "Id": "D:\\Final Project\\Health Center using EF\\WPFMedinova_Core\\WPFMedinova\\wwwroot\\css\\themes\\green-theme.css",
+      "PackagePath": "staticwebassets\\css\\themes\\green-theme.css"
+    },
+    {
+      "Id": "D:\\Final Project\\Health Center using EF\\WPFMedinova_Core\\WPFMedinova\\wwwroot\\css\\themes\\lite-blue-theme.css",
+      "PackagePath": "staticwebassets\\css\\themes\\lite-blue-theme.css"
+    },
+    {
+      "Id": "D:\\Final Project\\Health Center using EF\\WPFMedinova_Core\\WPFMedinova\\wwwroot\\css\\themes\\orange-theme.css",
+      "PackagePath": "staticwebassets\\css\\themes\\orange-theme.css"
+    },
+    {
+      "Id": "D:\\Final Project\\Health Center using EF\\WPFMedinova_Core\\WPFMedinova\\wwwroot\\css\\themes\\pink-theme.css",
+      "PackagePath": "staticwebassets\\css\\themes\\pink-theme.css"
+    },
+    {
+      "Id": "D:\\Final Project\\Health Center using EF\\WPFMedinova_Core\\WPFMedinova\\wwwroot\\css\\themes\\purple-theme.css",
+      "PackagePath": "staticwebassets\\css\\themes\\purple-theme.css"
+    },
+    {
+      "Id": "D:\\Final Project\\Health Center using EF\\WPFMedinova_Core\\WPFMedinova\\wwwroot\\css\\themes\\red-theme.css",
+      "PackagePath": "staticwebassets\\css\\themes\\red-theme.css"
+    },
+    {
+      "Id": "D:\\Final Project\\Health Center using EF\\WPFMedinova_Core\\WPFMedinova\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "D:\\Final Project\\Health Center using EF\\WPFMedinova_Core\\WPFMedinova\\wwwroot\\fonts\\FontAwesome.otf",
+      "PackagePath": "staticwebassets\\fonts\\FontAwesome.otf"
+    },
+    {
+      "Id": "D:\\Final Project\\Health Center using EF\\WPFMedinova_Core\\WPFMedinova\\wwwroot\\fonts\\fontawesome-webfont.eot",
+      "PackagePath": "staticwebassets\\fonts\\fontawesome-webfont.eot"
+    },
+    {
+      "Id": "D:\\Final Project\\Health Center using EF\\WPFMedinova_Core\\WPFMedinova\\wwwroot\\fonts\\fontawesome-webfont.svg",
+      "PackagePath": "staticwebassets\\fonts\\fontawesome-webfont.svg"
+    },
+    {
+      "Id": "D:\\Final Project\\Health Center using EF\\WPFMedinova_Core\\WPFMedinova\\wwwroot\\fonts\\fontawesome-webfont.ttf",
+      "PackagePath": "staticwebassets\\fonts\\fontawesome-webfont.ttf"
+    },
+    {
+      "Id": "D:\\Final Project\\Health Center using EF\\WPFMedinova_Core\\WPFMedinova\\wwwroot\\fonts\\fontawesome-webfont.woff",
+      "PackagePath": "staticwebassets\\fonts\\fontawesome-webfont.woff"
+    },
+    {
+      "Id": "D:\\Final Project\\Health Center using EF\\WPFMedinova_Core\\WPFMedinova\\wwwroot\\fonts\\fontawesome-webfont.woff2",
+      "PackagePath": "staticwebassets\\fonts\\fontawesome-webfont.woff2"
+    },
+    {
+      "Id": "D:\\Final Project\\Health Center using EF\\WPFMedinova_Core\\WPFMedinova\\wwwroot\\fonts\\glyphicons-halflings-regular.eot",
+      "PackagePath": "staticwebassets\\fonts\\glyphicons-halflings-regular.eot"
+    },
+    {
+      "Id": "D:\\Final Project\\Health Center using EF\\WPFMedinova_Core\\WPFMedinova\\wwwroot\\fonts\\glyphicons-halflings-regular.svg",
+      "PackagePath": "staticwebassets\\fonts\\glyphicons-halflings-regular.svg"
+    },
+    {
+      "Id": "D:\\Final Project\\Health Center using EF\\WPFMedinova_Core\\WPFMedinova\\wwwroot\\fonts\\glyphicons-halflings-regular.ttf",
+      "PackagePath": "staticwebassets\\fonts\\glyphicons-halflings-regular.ttf"
+    },
+    {
+      "Id": "D:\\Final Project\\Health Center using EF\\WPFMedinova_Core\\WPFMedinova\\wwwroot\\fonts\\glyphicons-halflings-regular.woff",
+      "PackagePath": "staticwebassets\\fonts\\glyphicons-halflings-regular.woff"
+    },
+    {
+      "Id": "D:\\Final Project\\Health Center using EF\\WPFMedinova_Core\\WPFMedinova\\wwwroot\\fonts\\glyphicons-halflings-regular.woff2",
+      "PackagePath": "staticwebassets\\fonts\\glyphicons-halflings-regular.woff2"
+    },
+    {
+      "Id": "D:\\Final Project\\Health Center using EF\\WPFMedinova_Core\\WPFMedinova\\wwwroot\\images\\12.jpg",
+      "PackagePath": "staticwebassets\\images\\12.jpg"
+    },
+    {
+      "Id": "D:\\Final Project\\Health Center using EF\\WPFMedinova_Core\\WPFMedinova\\wwwroot\\images\\14.jpg",
+      "PackagePath": "staticwebassets\\images\\14.jpg"
+    },
+    {
+      "Id": "D:\\Final Project\\Health Center using EF\\WPFMedinova_Core\\WPFMedinova\\wwwroot\\images\\15.jpg",
+      "PackagePath": "staticwebassets\\images\\15.jpg"
+    },
+    {
+      "Id": "D:\\Final Project\\Health Center using EF\\WPFMedinova_Core\\WPFMedinova\\wwwroot\\images\\6.jpg",
+      "PackagePath": "staticwebassets\\images\\6.jpg"
+    },
+    {
+      "Id": "D:\\Final Project\\Health Center using EF\\WPFMedinova_Core\\WPFMedinova\\wwwroot\\images\\7.jpg",
+      "PackagePath": "staticwebassets\\images\\7.jpg"
+    },
+    {
+      "Id": "D:\\Final Project\\Health Center using EF\\WPFMedinova_Core\\WPFMedinova\\wwwroot\\images\\9.jpg",
+      "PackagePath": "staticwebassets\\images\\9.jpg"
+    },
+    {
+      "Id": "D:\\Final Project\\Health Center using EF\\WPFMedinova_Core\\WPFMedinova\\wwwroot\\images\\choose-us-img1.jpg",
+      "PackagePath": "staticwebassets\\images\\choose-us-img1.jpg"
+    },
+    {
+      "Id": "D:\\Final Project\\Health Center using EF\\WPFMedinova_Core\\WPFMedinova\\wwwroot\\images\\choose-us-img2.jpg",
+      "PackagePath": "staticwebassets\\images\\choose-us-img2.jpg"
+    },
+    {
+      "Id": "D:\\Final Project\\Health Center using EF\\WPFMedinova_Core\\WPFMedinova\\wwwroot\\images\\choose-us-img3.jpg",
+      "PackagePath": "staticwebassets\\images\\choose-us-img3.jpg"
+    },
+    {
+      "Id": "D:\\Final Project\\Health Center using EF\\WPFMedinova_Core\\WPFMedinova\\wwwroot\\images\\counter-bg2.jpg",
+      "PackagePath": "staticwebassets\\images\\counter-bg2.jpg"
+    },
+    {
+      "Id": "D:\\Final Project\\Health Center using EF\\WPFMedinova_Core\\WPFMedinova\\wwwroot\\images\\doctor-1.jpg",
+      "PackagePath": "staticwebassets\\images\\doctor-1.jpg"
+    },
+    {
+      "Id": "D:\\Final Project\\Health Center using EF\\WPFMedinova_Core\\WPFMedinova\\wwwroot\\images\\doctor-2.jpg",
+      "PackagePath": "staticwebassets\\images\\doctor-2.jpg"
+    },
+    {
+      "Id": "D:\\Final Project\\Health Center using EF\\WPFMedinova_Core\\WPFMedinova\\wwwroot\\images\\doctor-3.jpg",
+      "PackagePath": "staticwebassets\\images\\doctor-3.jpg"
+    },
+    {
+      "Id": "D:\\Final Project\\Health Center using EF\\WPFMedinova_Core\\WPFMedinova\\wwwroot\\images\\doctor-4.jpg",
+      "PackagePath": "staticwebassets\\images\\doctor-4.jpg"
+    },
+    {
+      "Id": "D:\\Final Project\\Health Center using EF\\WPFMedinova_Core\\WPFMedinova\\wwwroot\\images\\doctor-5.jpg",
+      "PackagePath": "staticwebassets\\images\\doctor-5.jpg"
+    },
+    {
+      "Id": "D:\\Final Project\\Health Center using EF\\WPFMedinova_Core\\WPFMedinova\\wwwroot\\images\\favicon.ico",
+      "PackagePath": "staticwebassets\\images\\favicon.ico"
+    },
+    {
+      "Id": "D:\\Final Project\\Health Center using EF\\WPFMedinova_Core\\WPFMedinova\\wwwroot\\images\\gallery\\default-skin.png",
+      "PackagePath": "staticwebassets\\images\\gallery\\default-skin.png"
+    },
+    {
+      "Id": "D:\\Final Project\\Health Center using EF\\WPFMedinova_Core\\WPFMedinova\\wwwroot\\images\\gallery\\default-skin.svg",
+      "PackagePath": "staticwebassets\\images\\gallery\\default-skin.svg"
+    },
+    {
+      "Id": "D:\\Final Project\\Health Center using EF\\WPFMedinova_Core\\WPFMedinova\\wwwroot\\images\\gallery\\gallery-large-1.jpg",
+      "PackagePath": "staticwebassets\\images\\gallery\\gallery-large-1.jpg"
+    },
+    {
+      "Id": "D:\\Final Project\\Health Center using EF\\WPFMedinova_Core\\WPFMedinova\\wwwroot\\images\\gallery\\gallery-large-2.jpg",
+      "PackagePath": "staticwebassets\\images\\gallery\\gallery-large-2.jpg"
+    },
+    {
+      "Id": "D:\\Final Project\\Health Center using EF\\WPFMedinova_Core\\WPFMedinova\\wwwroot\\images\\gallery\\gallery-large-3.jpg",
+      "PackagePath": "staticwebassets\\images\\gallery\\gallery-large-3.jpg"
+    },
+    {
+      "Id": "D:\\Final Project\\Health Center using EF\\WPFMedinova_Core\\WPFMedinova\\wwwroot\\images\\gallery\\gallery-large-4.jpg",
+      "PackagePath": "staticwebassets\\images\\gallery\\gallery-large-4.jpg"
+    },
+    {
+      "Id": "D:\\Final Project\\Health Center using EF\\WPFMedinova_Core\\WPFMedinova\\wwwroot\\images\\gallery\\gallery-large-5.jpg",
+      "PackagePath": "staticwebassets\\images\\gallery\\gallery-large-5.jpg"
+    },
+    {
+      "Id": "D:\\Final Project\\Health Center using EF\\WPFMedinova_Core\\WPFMedinova\\wwwroot\\images\\gallery\\gallery-small-1.jpg",
+      "PackagePath": "staticwebassets\\images\\gallery\\gallery-small-1.jpg"
+    },
+    {
+      "Id": "D:\\Final Project\\Health Center using EF\\WPFMedinova_Core\\WPFMedinova\\wwwroot\\images\\gallery\\gallery-small-2.jpg",
+      "PackagePath": "staticwebassets\\images\\gallery\\gallery-small-2.jpg"
+    },
+    {
+      "Id": "D:\\Final Project\\Health Center using EF\\WPFMedinova_Core\\WPFMedinova\\wwwroot\\images\\gallery\\gallery-small-3.jpg",
+      "PackagePath": "staticwebassets\\images\\gallery\\gallery-small-3.jpg"
+    },
+    {
+      "Id": "D:\\Final Project\\Health Center using EF\\WPFMedinova_Core\\WPFMedinova\\wwwroot\\images\\gallery\\gallery-small-4.jpg",
+      "PackagePath": "staticwebassets\\images\\gallery\\gallery-small-4.jpg"
+    },
+    {
+      "Id": "D:\\Final Project\\Health Center using EF\\WPFMedinova_Core\\WPFMedinova\\wwwroot\\images\\gallery\\gallery-small-5.jpg",
+      "PackagePath": "staticwebassets\\images\\gallery\\gallery-small-5.jpg"
+    },
+    {
+      "Id": "D:\\Final Project\\Health Center using EF\\WPFMedinova_Core\\WPFMedinova\\wwwroot\\images\\gallery\\preloader.gif",
+      "PackagePath": "staticwebassets\\images\\gallery\\preloader.gif"
+    },
+    {
+      "Id": "D:\\Final Project\\Health Center using EF\\WPFMedinova_Core\\WPFMedinova\\wwwroot\\images\\logo.png",
+      "PackagePath": "staticwebassets\\images\\logo.png"
+    },
+    {
+      "Id": "D:\\Final Project\\Health Center using EF\\WPFMedinova_Core\\WPFMedinova\\wwwroot\\images\\next_icon.png",
+      "PackagePath": "staticwebassets\\images\\next_icon.png"
+    },
+    {
+      "Id": "D:\\Final Project\\Health Center using EF\\WPFMedinova_Core\\WPFMedinova\\wwwroot\\images\\next_icon1.png",
+      "PackagePath": "staticwebassets\\images\\next_icon1.png"
+    },
+    {
+      "Id": "D:\\Final Project\\Health Center using EF\\WPFMedinova_Core\\WPFMedinova\\wwwroot\\images\\patients-1.jpg",
+      "PackagePath": "staticwebassets\\images\\patients-1.jpg"
+    },
+    {
+      "Id": "D:\\Final Project\\Health Center using EF\\WPFMedinova_Core\\WPFMedinova\\wwwroot\\images\\patients-2.jpg",
+      "PackagePath": "staticwebassets\\images\\patients-2.jpg"
+    },
+    {
+      "Id": "D:\\Final Project\\Health Center using EF\\WPFMedinova_Core\\WPFMedinova\\wwwroot\\images\\patients-3.jpg",
+      "PackagePath": "staticwebassets\\images\\patients-3.jpg"
+    },
+    {
+      "Id": "D:\\Final Project\\Health Center using EF\\WPFMedinova_Core\\WPFMedinova\\wwwroot\\images\\prev_icon.png",
+      "PackagePath": "staticwebassets\\images\\prev_icon.png"
+    },
+    {
+      "Id": "D:\\Final Project\\Health Center using EF\\WPFMedinova_Core\\WPFMedinova\\wwwroot\\images\\small-blog-img1.jpg",
+      "PackagePath": "staticwebassets\\images\\small-blog-img1.jpg"
+    },
+    {
+      "Id": "D:\\Final Project\\Health Center using EF\\WPFMedinova_Core\\WPFMedinova\\wwwroot\\images\\small-blog-img2.jpg",
+      "PackagePath": "staticwebassets\\images\\small-blog-img2.jpg"
+    },
+    {
+      "Id": "D:\\Final Project\\Health Center using EF\\WPFMedinova_Core\\WPFMedinova\\wwwroot\\images\\status.gif",
+      "PackagePath": "staticwebassets\\images\\status.gif"
+    },
+    {
+      "Id": "D:\\Final Project\\Health Center using EF\\WPFMedinova_Core\\WPFMedinova\\wwwroot\\images\\team-next-icon.png",
+      "PackagePath": "staticwebassets\\images\\team-next-icon.png"
+    },
+    {
+      "Id": "D:\\Final Project\\Health Center using EF\\WPFMedinova_Core\\WPFMedinova\\wwwroot\\images\\team-prev-icon.png",
+      "PackagePath": "staticwebassets\\images\\team-prev-icon.png"
+    },
+    {
+      "Id": "D:\\Final Project\\Health Center using EF\\WPFMedinova_Core\\WPFMedinova\\wwwroot\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "D:\\Final Project\\Health Center using EF\\WPFMedinova_Core\\WPFMedinova\\wwwroot\\js\\custom.js",
+      "PackagePath": "staticwebassets\\js\\custom.js"
+    },
+    {
+      "Id": "D:\\Final Project\\Health Center using EF\\WPFMedinova_Core\\WPFMedinova\\wwwroot\\js\\hovers.js",
+      "PackagePath": "staticwebassets\\js\\hovers.js"
+    },
+    {
+      "Id": "D:\\Final Project\\Health Center using EF\\WPFMedinova_Core\\WPFMedinova\\wwwroot\\js\\jquery.counterup.min.js",
+      "PackagePath": "staticwebassets\\js\\jquery.counterup.min.js"
+    },
+    {
+      "Id": "D:\\Final Project\\Health Center using EF\\WPFMedinova_Core\\WPFMedinova\\wwwroot\\js\\jquery.js",
+      "PackagePath": "staticwebassets\\js\\jquery.js"
+    },
+    {
+      "Id": "D:\\Final Project\\Health Center using EF\\WPFMedinova_Core\\WPFMedinova\\wwwroot\\js\\modernizr.custom.79639.js",
+      "PackagePath": "staticwebassets\\js\\modernizr.custom.79639.js"
+    },
+    {
+      "Id": "D:\\Final Project\\Health Center using EF\\WPFMedinova_Core\\WPFMedinova\\wwwroot\\js\\photoswipe-gallery.js",
+      "PackagePath": "staticwebassets\\js\\photoswipe-gallery.js"
+    },
+    {
+      "Id": "D:\\Final Project\\Health Center using EF\\WPFMedinova_Core\\WPFMedinova\\wwwroot\\js\\photoswipe-ui-default.min.js",
+      "PackagePath": "staticwebassets\\js\\photoswipe-ui-default.min.js"
+    },
+    {
+      "Id": "D:\\Final Project\\Health Center using EF\\WPFMedinova_Core\\WPFMedinova\\wwwroot\\js\\photoswipe.min.js",
+      "PackagePath": "staticwebassets\\js\\photoswipe.min.js"
+    },
+    {
+      "Id": "D:\\Final Project\\Health Center using EF\\WPFMedinova_Core\\WPFMedinova\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "D:\\Final Project\\Health Center using EF\\WPFMedinova_Core\\WPFMedinova\\wwwroot\\js\\slick.min.js",
+      "PackagePath": "staticwebassets\\js\\slick.min.js"
+    },
+    {
+      "Id": "D:\\Final Project\\Health Center using EF\\WPFMedinova_Core\\WPFMedinova\\wwwroot\\js\\snap.svg-min.js",
+      "PackagePath": "staticwebassets\\js\\snap.svg-min.js"
+    },
+    {
+      "Id": "D:\\Final Project\\Health Center using EF\\WPFMedinova_Core\\WPFMedinova\\wwwroot\\js\\waypoints.min.js",
+      "PackagePath": "staticwebassets\\js\\waypoints.min.js"
+    },
+    {
+      "Id": "D:\\Final Project\\Health Center using EF\\WPFMedinova_Core\\WPFMedinova\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "D:\\Final Project\\Health Center using EF\\WPFMedinova_Core\\WPFMedinova\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "D:\\Final Project\\Health Center using EF\\WPFMedinova_Core\\WPFMedinova\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "D:\\Final Project\\Health Center using EF\\WPFMedinova_Core\\WPFMedinova\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "D:\\Final Project\\Health Center using EF\\WPFMedinova_Core\\WPFMedinova\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "D:\\Final Project\\Health Center using EF\\WPFMedinova_Core\\WPFMedinova\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "D:\\Final Project\\Health Center using EF\\WPFMedinova_Core\\WPFMedinova\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "D:\\Final Project\\Health Center using EF\\WPFMedinova_Core\\WPFMedinova\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "D:\\Final Project\\Health Center using EF\\WPFMedinova_Core\\WPFMedinova\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\Final Project\\Health Center using EF\\WPFMedinova_Core\\WPFMedinova\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "D:\\Final Project\\Health Center using EF\\WPFMedinova_Core\\WPFMedinova\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "D:\\Final Project\\Health Center using EF\\WPFMedinova_Core\\WPFMedinova\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "D:\\Final Project\\Health Center using EF\\WPFMedinova_Core\\WPFMedinova\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "D:\\Final Project\\Health Center using EF\\WPFMedinova_Core\\WPFMedinova\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "D:\\Final Project\\Health Center using EF\\WPFMedinova_Core\\WPFMedinova\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "D:\\Final Project\\Health Center using EF\\WPFMedinova_Core\\WPFMedinova\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "D:\\Final Project\\Health Center using EF\\WPFMedinova_Core\\WPFMedinova\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\Final Project\\Health Center using EF\\WPFMedinova_Core\\WPFMedinova\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "D:\\Final Project\\Health Center using EF\\WPFMedinova_Core\\WPFMedinova\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "D:\\Final Project\\Health Center using EF\\WPFMedinova_Core\\WPFMedinova\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "D:\\Final Project\\Health Center using EF\\WPFMedinova_Core\\WPFMedinova\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "D:\\Final Project\\Health Center using EF\\WPFMedinova_Core\\WPFMedinova\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "D:\\Final Project\\Health Center using EF\\WPFMedinova_Core\\WPFMedinova\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "D:\\Final Project\\Health Center using EF\\WPFMedinova_Core\\WPFMedinova\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "D:\\Final Project\\Health Center using EF\\WPFMedinova_Core\\WPFMedinova\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\Final Project\\Health Center using EF\\WPFMedinova_Core\\WPFMedinova\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "D:\\Final Project\\Health Center using EF\\WPFMedinova_Core\\WPFMedinova\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "D:\\Final Project\\Health Center using EF\\WPFMedinova_Core\\WPFMedinova\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "D:\\Final Project\\Health Center using EF\\WPFMedinova_Core\\WPFMedinova\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "D:\\Final Project\\Health Center using EF\\WPFMedinova_Core\\WPFMedinova\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "D:\\Final Project\\Health Center using EF\\WPFMedinova_Core\\WPFMedinova\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "D:\\Final Project\\Health Center using EF\\WPFMedinova_Core\\WPFMedinova\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "D:\\Final Project\\Health Center using EF\\WPFMedinova_Core\\WPFMedinova\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\Final Project\\Health Center using EF\\WPFMedinova_Core\\WPFMedinova\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "D:\\Final Project\\Health Center using EF\\WPFMedinova_Core\\WPFMedinova\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "D:\\Final Project\\Health Center using EF\\WPFMedinova_Core\\WPFMedinova\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "D:\\Final Project\\Health Center using EF\\WPFMedinova_Core\\WPFMedinova\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "D:\\Final Project\\Health Center using EF\\WPFMedinova_Core\\WPFMedinova\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "D:\\Final Project\\Health Center using EF\\WPFMedinova_Core\\WPFMedinova\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "D:\\Final Project\\Health Center using EF\\WPFMedinova_Core\\WPFMedinova\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "D:\\Final Project\\Health Center using EF\\WPFMedinova_Core\\WPFMedinova\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "D:\\Final Project\\Health Center using EF\\WPFMedinova_Core\\WPFMedinova\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "D:\\Final Project\\Health Center using EF\\WPFMedinova_Core\\WPFMedinova\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "D:\\Final Project\\Health Center using EF\\WPFMedinova_Core\\WPFMedinova\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "D:\\Final Project\\Health Center using EF\\WPFMedinova_Core\\WPFMedinova\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "D:\\Final Project\\Health Center using EF\\WPFMedinova_Core\\WPFMedinova\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "D:\\Final Project\\Health Center using EF\\WPFMedinova_Core\\WPFMedinova\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "D:\\Final Project\\Health Center using EF\\WPFMedinova_Core\\WPFMedinova\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "D:\\Final Project\\Health Center using EF\\WPFMedinova_Core\\WPFMedinova\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "D:\\Final Project\\Health Center using EF\\WPFMedinova_Core\\WPFMedinova\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "D:\\Final Project\\Health Center using EF\\WPFMedinova_Core\\WPFMedinova\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "D:\\Final Project\\Health Center using EF\\WPFMedinova_Core\\WPFMedinova\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "D:\\Final Project\\Health Center using EF\\WPFMedinova_Core\\WPFMedinova\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "D:\\Final Project\\Health Center using EF\\WPFMedinova_Core\\WPFMedinova\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "D:\\Final Project\\Health Center using EF\\WPFMedinova_Core\\WPFMedinova\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "D:\\Final Project\\Health Center using EF\\WPFMedinova_Core\\WPFMedinova\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "D:\\Final Project\\Health Center using EF\\WPFMedinova_Core\\WPFMedinova\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "D:\\Final Project\\Health Center using EF\\WPFMedinova_Core\\WPFMedinova\\wwwroot\\style.css",
+      "PackagePath": "staticwebassets\\style.css"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.WPFMedinova.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.build.WPFMedinova.props",
+      "PackagePath": "build\\WPFMedinova.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildMultiTargeting.WPFMedinova.props",
+      "PackagePath": "buildMultiTargeting\\WPFMedinova.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildTransitive.WPFMedinova.props",
+      "PackagePath": "buildTransitive\\WPFMedinova.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

@@ -1,0 +1,113 @@
+﻿
+@{
+    Layout = null; // No layout used for this view
+}
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Appointment for Patients</title>
+    <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+    <script src="~/js/cascade.js"></script>
+    <script>
+        $(document).ready(function ()
+        {
+            // Object mapping specializations to their respective doctors
+            var doctorsBySpecialization =
+            {
+                "Dermatologist": ["Deepali Bhardwaj"],
+                "Ophthalmology": ["Reva Tripathi"],
+                "Otolaryngologist": ["Rajeev Singh"],
+                "Neurologist": ["Ajay Agarwal"],
+                "Oncology": ["Saif Khan"],
+                "Cardiologist": ["John Deo"],
+                "Pulmonologist": ["Pawan Gupta"],
+            };
+
+            // Event listener for specialization dropdown
+            $('#specialization').change(function () 
+            {
+                var specialization = $(this).val();
+                var doctorSelect = $('#doctor');
+                doctorSelect.empty().append('<option>---Select---</option>');
+
+                // Populate the doctor dropdown based on selected specialization
+                if (doctorsBySpecialization[specialization])
+                {
+                    doctorsBySpecialization[specialization].forEach(function (doctor)
+                    {
+                        doctorSelect.append('<option value="' + doctor + '">' + doctor + '</option>');
+                    });
+                }
+            });
+        });
+    </script>
+</head>
+<body class="bg-primary">
+    <!-- Set body color using Bootstrap class -->
+    <div class="container mt-5">
+        <div class="card" style="max-width: 400px; margin: auto;">
+            <!-- Center card with max width -->
+            <div class="card-header bg-info text-white">
+                <h3 class="text-center">Appointment Form</h3> <!-- Title of the form -->
+            </div>
+            <div class="card-body">
+                <form id="appointment-form" class="form" asp-controller="Account" asp-action="Appointment" method="post">
+                    <div class="form-group">
+                        <label for="specialization" class="text-info">Specialization</label>
+                        <select name="specialization" id="specialization" class="form-control" style="max-width: 100%;">
+                            <option>---Select---</option>
+                            <option value="Dermatologist">Dermatologist</option>
+                            <option value="Ophthalmology">Ophthalmology</option>
+                            <option value="Otolaryngologist">Otolaryngologist</option>
+                            <option value="Neurologist">Neurologist</option>
+                            <option value="Oncology">Oncology</option>
+                            <option value="Cardiologist">Cardiologist</option>
+                            <option value="Pulmonologist">Pulmonologist</option>
+                        </select>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="doctor" class="text-info">Select Doctor</label>
+                        <select name="doctor" id="doctor" class="form-control" style="max-width: 100%;">
+                            <option>---Select---</option>
+                        </select>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="name" class="text-info">Name</label>
+                        <input type="text" name="Patient_Name" id="name" class="form-control" value="@ViewBag.name" readonly style="max-width: 100%;">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="mobileno" class="text-info">Mobile No</label>
+                        <input type="text" name="mobileno" id="mobileno" class="form-control" value="@ViewBag.mobile_no" readonly style="max-width: 100%;">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="appointment_date" class="text-info">Appointment Date & Time</label>
+                        <input type="datetime-local" name="Appointment_Date" id="appointment_date" class="form-control" required style="max-width: 100%;"
+                               min="@DateTime.Now.ToString("yyyy-MM-ddTHH:mm")">
+                    </div>
+
+                </form>
+
+                <div class="text-center mb-3">
+                    <input type="submit" name="Submit" class="btn btn-info btn-md" value="Book an Appointment" form="appointment-form" /> <!-- Button to book appointment -->
+                </div>
+                <div class="text-center">
+                    <a asp-action="Login" class="btn btn-secondary btn-md">Go back</a> <!-- Link to go back to the login page -->
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
+
+@section scripts
+{
+    <partial name="_ValidationScriptsPartial" /> <!-- Include validation scripts -->
+}
